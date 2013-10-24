@@ -1,0 +1,13 @@
+%h2= post.title
+
+%p
+  = post.body
+%p
+  = time_ago_in_words(post.updated_at)
+  ago
+
+%p
+  = link_to 'Edit', edit_post_path(post)
+  |
+  = link_to 'Destroy', post, :method => :delete, :data => { :confirm => 'Are you sure?' }
+

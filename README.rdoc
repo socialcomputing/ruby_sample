@@ -1,0 +1,17 @@
+README
+=======
+
+This is the most important link: http://guides.rubyonrails.org/getting_started.html
+
+  * Checkout the repository
+  * Install Ruby 2.0
+  * `gem install bundler`
+  * `bundle install`
+  * `rake db:migrate`
+  * `rails s -p 8000`
+
+
+
+https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview
+
+
